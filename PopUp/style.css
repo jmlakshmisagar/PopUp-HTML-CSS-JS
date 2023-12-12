@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Arvo&family=Caveat&family=Comfortaa:wght@300&family=Exo+2:ital,wght@1,100&family=Exo:wght@100&family=IBM+Plex+Mono:wght@100&family=Inconsolata:wght@300&family=Kanit&family=Sometype+Mono:wght@500&family=Space+Grotesk:wght@300&display=swap');
+body{
+    background-color: #2b4450;
+    height: 95vh;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Arvo', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    font-family: 'Space Grotesk', sans-serif;
+    position: relative;
+}
+.submit button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #f78536;
+    color: #dfebed;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Arvo', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+    position: relative;
+}
+.submit button:hover{
+    background-color: #f27e2b;
+    transition: all ease-in-out 0.12s;
+}
+.popup{
+    position: absolute;
+    width: 250px;
+    background-color: #dfebed;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s top 0.4s;
+}
+.show{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    transition: transform 0.4s ,top 0.4s;
+}
+.img{
+    color: #f27e2b;
+    font-size: 5rem;
+
+}
+.popup .alert h1{
+    color: #f27e2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup .alert button{
+    width: 100%;
+    height: 30px;
+    background-color: #f27e2b;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: #dfebed;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
